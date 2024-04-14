@@ -1,0 +1,274 @@
+body{
+    margin:0;
+    padding:0
+}
+.menu{
+    position:fixed;
+    top:0;
+    right: 0;
+    left:0;
+    margin: 0 auto;
+    width: 100%;
+    z-index:1000;
+}
+.topo{ /*MENU CONF.GERAL*/
+    margin: 0 auto;
+    width: 100%;
+
+    background-image:linear-gradient(to right,#744303, #522f01,#744303);
+
+    position:relative;
+    box-shadow: 0 4px 10px #3a2407;
+}   
+.topo img{ /*CONF. LOGO*/
+    width: 120px;
+    padding-left:7%;
+}
+.topo a{ /*CONF. ATALHOS*/
+    color:#c4a47c;
+    text-decoration: none;
+}
+.topo p{ /*CONF. ATALHOS*/
+    text-shadow: 3px 5px 2px #3a2407;
+    text-align:right;
+
+    position:absolute;
+    right:7%;
+    top:30px;
+
+    font-size: 18px;
+    font-family: Oswald;
+}
+
+
+.banner-fixo{/*CONF.GERAL PARALLAX*/
+    margin: 0 auto;
+    height: 600px;   
+}
+.banner-fixo p{/*PARAGRAFOS PARALLAX*/
+    font-family: Fraunces;
+    font-size: 70px;
+    text-align: center;
+
+    color: white;
+
+    margin:auto;
+
+    position: relative;
+    top: 45%;
+    
+    
+}
+.banner-fixo h3{ /*TITULOS PARALLAX*/
+    font-family: Fraunces;
+    font-size: 25px;
+    text-align: center;
+
+    color: white;
+    background-color: #3a2407a6;
+
+    width: 500px;
+    padding:20px;
+    margin: auto;
+
+    position: relative;
+    top: 45%;
+    
+    
+}
+.um{
+    background-image: url('img/parallax-imagem1.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.dois{
+    background-image:url('img/parallax-imagem2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.tres{
+    background-image:url('img/parallax-imagem3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.fundo-branco{ /*CONF. GERAL FUNDO BRANCO*/
+    width: 100%;
+    height: 300px;
+    padding-top: 90px;
+    padding-bottom:30px;
+    background-color: white;
+    text-align: center;
+}
+.fundo-branco h2{
+    color:#604829;
+    font-family:Oswald;
+}
+.fundo-branco p{
+    color:#3a2407;
+    line-height: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+
+.contatos{ /*CONF. GERAIS DE CONTATOS*/
+    max-height: 600px;
+    width: 100%;
+    height: 100vh;
+
+    background-image:url('img/parallax-imagem4.png');
+    background-attachment: fixed;
+    background-size: cover;
+    position:relative;
+}
+.contatos h2{ /*TITULO DE CONTATOS*/
+    font-family:Oswald;
+    text-align: center;
+
+    color:white;
+    background-color: #522f01;
+
+    width: 300px;
+    padding:7px;
+    margin: auto;
+
+    position:absolute;
+    top:5%;
+    left:0;
+    right: 0;
+}
+.contatos iframe{ /*iframe*/
+    margin: auto;
+
+    position:absolute;
+    top:20%;
+    left:0;
+    right: 0;
+
+    height: 300px;
+    
+    border-radius: 20px;
+}
+.contatospar{/*CONF. GERAL PARAGRAFO*/
+    width: 500px;
+    padding: 5px;
+
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    left: 0;
+
+    margin: auto;
+    background-color: #522f019a;
+}
+.contatospar p{
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    line-height: 18px;
+    text-shadow: 0px 6px 8px #000000;
+    text-align: center;
+
+}
+
+.horários{ /*CONF. SEÇÃO HORARIOS*/
+    font-family: Oswald;
+    text-align: center;
+    color:white;
+
+    margin: 0 auto;
+    padding: 0;
+    height: 600px;
+
+    background-image: URL('img/cafeteria.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+    box-sizing: border-box;
+}
+.horários h2{
+    padding-top:60px;
+    padding-bottom:40px;
+    margin: 0 auto;
+}
+.lista-horarios{
+    max-width: 768px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    font-family: "Oswald", sans-serif;
+    list-style: none;  
+    box-sizing: border-box;
+}
+
+.lista-horarios li{
+    position: relative;
+}
+.lista-horarios li h3{
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+.lista-horarios li div{ /* tarja = <div> */
+    max-width: 70%;
+    margin: 0 auto;
+    height: 1px;
+
+    position: absolute; /*RELATIVO AO LI*/
+    top: 50%;
+    right: 0;
+    left: 0;
+
+    background-color: #ACACAC
+}
+
+.lista-horarios li p{
+    color: #ACACAC;
+    position: absolute; /*RELATIVO AO LI*/
+    top: 0;
+    right: 0;
+    margin:0 auto;
+}
+.lista-horarios li span{
+    color: #ACACAC;
+    position: absolute; /*RELATIVO AO LI*/
+    top: 0;
+    right: 2%;
+    font-weight: bold;
+}
+.rodapé{
+    position: relative;
+}
+.rodapé p{
+    margin: 0 auto;
+    padding: 10px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+
+    background-color: #744303;
+    color: #fff;
+}
+.rodapé a{
+    padding: 2px;
+    border-radius: 90px;
+
+    color: #3a2407;
+
+    font-family:Oswald;
+    text-align: center;
+    text-decoration: none;
+
+    position:absolute;
+    top:-20px;
+    right: 50px;
+}
+
+
+
